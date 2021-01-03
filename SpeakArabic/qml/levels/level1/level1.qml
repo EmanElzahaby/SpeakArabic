@@ -93,7 +93,7 @@ Scene {
                            var w =c.createObject(gameWindow)
                        level1.visible=false
                        w.show
-
+                audio7.play()
 
                    }
                }
@@ -119,4 +119,11 @@ Scene {
 
 
 }
+Audio{
+                id:audio7
+                source:"../../levels/level1/Days/sounds/111.mp3"
+
+
+
+                }
 }
